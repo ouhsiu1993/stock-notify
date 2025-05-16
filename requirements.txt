@@ -1,0 +1,6 @@
+twstock
+requests
+python-dotenv
+Flask
+line-bot-sdk
+gunicorn

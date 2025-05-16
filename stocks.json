@@ -1,0 +1,139 @@
+{
+    "portfolio": {
+      "核心ETF": [
+        {
+          "id": "0050",
+          "name": "元大台灣50",
+          "quantity": 288,
+          "target_quantity": 2000,
+          "current_price": 186.85,
+          "current_value": 53700,
+          "target_value": 373700,
+          "current_ratio": 5.2,
+          "target_ratio": 36.4,
+          "threshold_down": 181.25, 
+          "threshold_up": 192.45,
+          "action_down": "可提前加碼500股",
+          "action_up": "評估是否再平衡轉入高股息型ETF",
+          "rebalance_upper": 40,
+          "rebalance_lower": 30,
+          "estimated_annual_return": 8
+        }
+      ],
+      "高成長股": [
+        {
+          "id": "NVDA",
+          "name": "輝達",
+          "quantity": 70.75,
+          "target_quantity": 94,
+          "current_price": 4156.75,
+          "current_value": 294090,
+          "target_value": 390780,
+          "current_ratio": 28.7,
+          "target_ratio": 38.1,
+          "threshold_down": 4031.55,
+          "threshold_up": 4281.96,
+          "action_down": "可提前加碼10股",
+          "action_up": "評估是否分批轉入ETF或主題型配置",
+          "rebalance_upper": 42,
+          "rebalance_lower": 32,
+          "estimated_annual_return": 20
+        }
+      ],
+      "波段操作": [
+        {
+          "id": "2480",
+          "name": "敦陽科",
+          "quantity": 3000,
+          "target_quantity": 1000,
+          "current_price": 165,
+          "current_value": 495000,
+          "target_value": 165000,
+          "current_ratio": 48.3,
+          "target_ratio": 16.1,
+          "threshold_down": 156.75,
+          "threshold_up": 173.25,
+          "action_down": "可啟動停損或轉倉至ETF",
+          "action_up": "可先獲利1張",
+          "rebalance_upper": 25,
+          "rebalance_lower": 15,
+          "estimated_annual_return": 22.5
+        }
+      ],
+      "主題型ETF": [
+        {
+          "id": "00893",
+          "name": "國泰智能電動車",
+          "quantity": 0,
+          "target_quantity": 7000,
+          "current_price": 20,
+          "current_value": 0,
+          "target_value": 140000,
+          "current_ratio": 0,
+          "target_ratio": 13.7,
+          "threshold_down": 19.4,
+          "threshold_up": 20.6,
+          "action_down": "可低接",
+          "action_up": "可考慮平移至0050或00878",
+          "rebalance_upper": 16,
+          "rebalance_lower": 11,
+          "estimated_annual_return": 12
+        }
+      ],
+      "高股息穩定型ETF": [
+        {
+          "id": "00878",
+          "name": "國泰永續高股息",
+          "quantity": 0,
+          "target_quantity": 5000,
+          "current_price": 19,
+          "current_value": 0,
+          "target_value": 95000,
+          "current_ratio": 0,
+          "target_ratio": 9.3,
+          "threshold_down": 18.62,
+          "threshold_up": 19.38,
+          "action_down": "可低接加碼",
+          "action_up": "評估轉入0050",
+          "rebalance_upper": 12,
+          "rebalance_lower": 8,
+          "estimated_annual_return": 7
+        }
+      ],
+      "待轉出資產": [
+        {
+          "id": "6214",
+          "name": "精誠",
+          "quantity": 2000,
+          "target_quantity": 0,
+          "current_price": 138,
+          "current_value": 276000,
+          "target_value": 0,
+          "current_ratio": 0,
+          "target_ratio": 0,
+          "threshold_down": 131.1,
+          "threshold_up": 144.9,
+          "action_down": "建議分批轉入0050或00878",
+          "action_up": "可保留觀察",
+          "rebalance_upper": 0,
+          "rebalance_lower": 0,
+          "estimated_annual_return": 6.5
+        }
+      ]
+    },
+    "portfolio_summary": {
+      "total_value": 1118790,
+      "target_value": 1024480,
+      "estimated_contribution": {
+        "核心ETF": 2.9,
+        "高成長股": 7.6,
+        "波段操作": 3.7,
+        "主題型ETF": 1.6,
+        "高股息穩定型ETF": 0.65
+      }
+    },
+    "monitoring_rules": {
+      "check_interval_hours": 4,
+      "notification_time": ["09:00", "12:00", "15:00"]
+    }
+  }
