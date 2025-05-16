@@ -3,7 +3,7 @@ services:
     name: line-investment-bot
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn main:app
+    startCommand: gunicorn main:app --log-level debug
     runtime: python3
     envVars:
       - key: LINE_CHANNEL_SECRET
