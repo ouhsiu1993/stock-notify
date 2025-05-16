@@ -1,4 +1,3 @@
-twstock
 requests
 python-dotenv
 Flask
